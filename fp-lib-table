@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MagicDeskCartDual)(type KiCad)(uri ${KIPRJMOD}/lib/MagicDeskCartDual.pretty)(options "")(descr ""))
+)
