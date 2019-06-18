@@ -1,4 +1,4 @@
-PROJECT=MagicDeskDual
+PROJECT=MagicDeskCartDual
 
 all: $(PROJECT).zip
 
