@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 14)
+    (drawings 15)
     (tracks 652)
     (zones 0)
     (modules 11)
@@ -961,6 +961,9 @@
     )
   )
 
+  (gr_text https://github.com/hackup/MagicDeskDual (at 81.026 99.949 90) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_text Rev.1 (at 81.153 84.709 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -1633,7 +1636,7 @@
   (via (at 92.583 132.08) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 62))
   (via (at 101.219 105.283) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 62))
 
-  (zone (net 62) (net_name GND) (layer F.Cu) (tstamp 5D082F7E) (hatch edge 0.508)
+  (zone (net 62) (net_name GND) (layer F.Cu) (tstamp 5D08C7CE) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -2144,7 +2147,7 @@
       )
     )
   )
-  (zone (net 62) (net_name GND) (layer B.Cu) (tstamp 5D082F7B) (hatch edge 0.508)
+  (zone (net 62) (net_name GND) (layer B.Cu) (tstamp 5D08C7CB) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
